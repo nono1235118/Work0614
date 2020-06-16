@@ -17,24 +17,33 @@
 }
 
 body {
-  padding: 20px;
+  height: 1000px;
 }
 
 H1, H2, H3, H4, H5, H6 {
   font-weight: bold;
 }
 
+header {
+  height: 100%;
+}
+header .container {
+  padding: 100px 0px;
+}
+
 section {
   margin: 20px;
+  padding: 10px;
 }
 
 #info img {
   width: 100%;
 }
-
-#section_skills {
-  padding: 10px;
+#info .img_wrap {
+  height: 180px;
+  overflow: hidden;
 }
+
 #section_skills h4 {
   margin: 0px;
 }
@@ -49,16 +58,23 @@ section {
   font-size: 16px;
   font-weight: normal;
 }
+
+#section_experiences p {
+  font-size: 14px;
+}
 </style>
 </head>
 <body translate="no">
-<header class="jumbotron text-center"> <img src="img/apple.svg" alt="" /></header>
+<header class="jumbotron">
+<div class="container text-center"> <img src="https://nono1235118.github.io/Work0614/img/apple.svg" alt="" /></div>
+</header>
 <section id="info">
 <div class="container">
-<div class="row"> <img class="col-4 col-md-6 col-sm-6" src="https://images.cakeresume.com/Z3yp8/brier-lin/e33000f8-0742-4b5c-9c93-31966593aa1c.png" alt="" />
-<div class="col-8 col-md-6 col-sm-12">
+<div class="row">
+<div class="col-12 col-sm-6 col-md-4"><img class="img_wrap4" src="https://images.cakeresume.com/Z3yp8/brier-lin/e33000f8-0742-4b5c-9c93-31966593aa1c.png" alt="" /></div>
+<div class="col-12 col-sm-6 col-md-8">
 <h3>Brier Lin</h3>
-<p>喜歡欣賞各式網頁的設計，對於網頁製作有不少的興趣，目前正在持續學習有關前端工程相關知識。</p><span>一些連結<br>Taipei,Taiwan<br></span><a href="/cdn-cgi/l/email-protection#d8baaab1bdaab4b1b698bfb5b9b1b4f6bbb7b5" target="_blank"><span class="__cf_email__" data-cfemail="afcdddc6caddc3c6c1efc8c2cec6c381ccc0c2">[email&#160;protected]</span></a>
+<p>喜歡欣賞各式網頁的設計，對於網頁製作有不少的興趣，目前正在持續學習有關前端工程相關知識。</p><span>一些連結<br>Taipei,Taiwan<br></span><a href="/cdn-cgi/l/email-protection#98faeaf1fdeaf4f1f6d8fff5f9f1f4b6fbf7f5" target="_blank"><span class="__cf_email__" data-cfemail="0664746f63746a6f6846616b676f6a2865696b">[email&#160;protected]</span></a>
 </div>
 </div>
 </div>
@@ -67,17 +83,17 @@ section {
 <div class="container">
 <h4>SKILLS</h4>
 <div class="row">
-<div class="col-4">
+<div class="col-md-4 col-6">
 <hr />
 <h5>前端工程</h5>
 <p>HTML / CSS / JavaScript / Boostrapt / RWD / Vue.js</p>
 </div>
-<div class="col-4">
+<div class="col-md-4 col-6">
 <hr />
 <h5>其他程式語言/平台</h5>
 <p>SQL / R / JAVA / C# / ASP.NET / Android Studio / Visual Studio / Unity </p>
 </div>
-<div class="col-4">
+<div class="col-md-4 col-6">
 <hr />
 <h5>影像製作</h5>
 <p>Photoshop / Illustrator</p>
@@ -98,33 +114,26 @@ section {
 <div class="container">
 <H4>Work Experiences</H4>
 <hr />
-<div class="row">
-<div class="col-2"></div>
-<div class="col-8">大猩猩科技股份有限公司, Asst. PM, Jun 2019 ~ Jun 2020</div>
-<div class="col-2"></div>
-</div>
-<div class="row">
-<div class="col-2"></div>
-<div class="col-8">優事資訊股份有限公司, 展場實習生, Feb 2018 ~ May 2018</div>
-<div class="col-2"></div>
-</div>
-<div class="row">
-<div class="col-2"></div>
-<div class="col-8">台塑企業總管理處總經理室資產開發組, 暑期工讀生, Feb 2018 ~ May 2018</div>
-<div class="col-2"></div>
-</div>
-<div class="row">
-<div class="col-2"></div>
-<div class="col-8">台塑石化有限公司煉油事業部油料處, 暑期工讀生, Feb 2018 ~ May 2018</div>
-<div class="col-2"></div>
-</div>
-<div class="row">
-<div class="col-2"></div>
-<div class="col-8">長庚大學資訊管理學系, 工讀生, Oct 2015 ~ May 2019</div>
-<div class="col-2"></div>
-</div>
+<ul>
+<li>大猩猩科技股份有限公司, Asst. PM, Jun 2019 ~ Jun 2020
+<p>矯正機關智慧監控系統建置及影像資料庫分析應用 專案駐點工作執行</p>
+</li>
+<li>優事資訊股份有限公司, 展場實習生, Feb 2018 ~ May 2018
+<p>協助澳門大型會展展場支援工作</p>
+</li>
+<li>台塑企業總管理處總經理室資產開發組, 暑期工讀生, Feb 2018 ~ May 2018
+<p>協助單位進行大量資料建檔、上傳</p>
+</li>
+<li>台塑石化有限公司煉油事業部油料處, 暑期工讀生, Feb 2018 ~ May 2018
+<p>協助單位進行資料核對、建檔</p>
+</li>
+<li>長庚大學資訊管理學系, 工讀生, Oct 2015 ~ May 2019
+<p>協助系辦事務工作處理</p>
+</li>
+</ul>
 </div>
 </section>
+<hr />
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
 </body>
 </html>
